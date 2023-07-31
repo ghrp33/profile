@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.button > input {
+  font-family: 'Special Elite', cursive;
+  color: #b11226;
+}
+
+h1 {
+  color: white;
+  font-family: 'Marcellus SC', serif;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 45px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  color: #b11226;
+  font-family: 'Marcellus SC', serif;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+a {
+  color: brown ;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: brown wavy;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin: 0 auto;
+  border-radius: 100px;
+  width: 200px;
+  border-style: double;
+  border-width: 5px;
+  border-color: #b11226
+}
+
+.box {
+  background: #ffbcd9;
+  border: 15px;
+  border-radius: 50px;
+  box-shadow: 10px 5px 5px #b11226;
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* comment here */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
